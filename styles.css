@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+html,body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(229, 6%, 66%);
+    background-color: hsl(0, 0%, 98%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2 {
+    color: hsl(234, 12%, 34%);
+}
+
+h1, h2, p {
+    margin-left: 30px;
+}
+
+.titles h1 {
+    margin: 15px 0 0 0;
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+}
+
+.titles h1, .titles h2 {
+    font-size: 30px;
+}
+
+.titles P {
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+.titles h2 {
+    margin: 5px 0 0 0;
+    font-weight: 700;
+}
+
+.titles {
+    width: min(90vw, 510px);
+    text-align: center;
+}
+
+.cards {
+    margin-top: 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cyan, .red, .yellow, .blue {
+    width: min(340px, 90vw);
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 20px rgb(0 0 0 / 20%);
+}
+
+.cards h2 {
+    font-size: 20px;
+}
+
+.cards p {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.cards img {
+    float: right;
+    margin: 35px 35px 30px 0;
+}
+
+.cyan {
+    border-top: 2px solid hsl(180, 62%, 55%);
+}
+
+.red {
+    border-top: 2px solid hsl(0, 78%, 62%);
+}
+
+.yellow {
+    border-top: 2px solid hsl(34, 97%, 64%);
+}
+
+.blue {
+    border-top: 2px solid hsl(212, 86%, 64%);
+}
+
+.attribution { 
+    height: 10px;
+    width: 100vw;
+    margin-right: 25px;
+    bottom: 0;
+    font-size: 9px; 
+    text-align: center; 
+}
+.attribution a { 
+    width: 100vw;
+    color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (min-width: 1080px) {
+
+    html {
+        overflow-y: hidden;
+    }
+    .cyan, .red, .yellow, .blue {
+        height: 255px;
+    }
+
+    .cyan, .blue {
+        transform: translateY(50%);
+    }
+}
