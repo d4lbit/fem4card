@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site here](https://d4lbit.github.io/fem4card/)
 
 ## My process
 
@@ -34,6 +34,6 @@ Users should be able to:
 
 ## Author
 
-- GitHub - [Add your name here](https://www.github.com/d4lbit)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/d4lbit)
-- Twitter - [@yourusername](https://www.twitter.com/ioleishere)
+- GitHub - [@d4lbit](https://www.github.com/d4lbit)
+- Frontend Mentor - [@d4lbit](https://www.frontendmentor.io/profile/d4lbit)
+- Twitter - [@ioleishere](https://www.twitter.com/ioleishere)
